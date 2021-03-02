@@ -1,0 +1,4 @@
+Options Indexes
+AuthType Ucam-WebAuth
+Require user cyss2 ai313 aa951 db711 pjm216 rab235
+AARequiredPtags none

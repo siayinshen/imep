@@ -1,0 +1,4 @@
+Options -Indexes
+AuthType Ucam-WebAuth
+Require valid-user
+AARequiredPtags none

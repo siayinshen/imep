@@ -1,0 +1,9 @@
+Options -Indexes
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+<FilesMatch "logout">
+    SetHandler AALogout
+</FilesMatch>
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
